@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发布作品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "personalworks-type-deatil": "/componets/personalworksTypeDeatil/personalworksTypeDeatil",
+    "my-to-seend": "/componets/myToSend/MyToSend"
+  }
+}

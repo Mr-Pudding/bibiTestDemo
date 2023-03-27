@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "swiper-dot": "/componets/swiper-dot/swiper-dot",
+    "card": "/componets/card/card",
+    "style-list3": "/componets/StyleList3/StyleList3"
+  }
+}

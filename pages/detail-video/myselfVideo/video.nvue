@@ -1,0 +1,13 @@
+<template>
+  <view style="background-color: aquamarine;color: red;">rnmmmm</view>
+</template>
+
+<script>
+	export default {
+		
+	}
+</script>
+
+<style>
+
+</style>

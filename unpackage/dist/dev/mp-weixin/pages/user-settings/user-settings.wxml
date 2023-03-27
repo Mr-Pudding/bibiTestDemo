@@ -1,0 +1,1 @@
+<view><my-to-send bind:onSetToClick="__e" vue-id="5d8e4f74-1" data-event-opts="{{[['^onSetToClick',[['loginout']]]]}}" bind:__l="__l" vue-slots="{{['default']}}">退出登录</my-to-send></view>

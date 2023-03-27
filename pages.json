@@ -1,0 +1,279 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",//首页index路径
+			"style": {
+				"navigationBarTitleText": "发现",//首页导航栏发现
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {//标题栏
+						"searchInput": {//搜索框的样式设置
+							"align": "left",
+							"autoFocus": true,
+							"backgroundColor": "#ededee",
+							"borderRadius": "50px",
+							"disabled": true,
+							"placeholder": "请输入关建词",
+							"placeholderColor": "#959FA0"
+						},
+						"buttons": [
+							{
+								"color": "#959FA0",
+								"colorPressed": "#333333",
+								"float": "right",
+								"fontSize": "14px",
+								"text": "分类"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/sort/sort",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"align": "left",
+							"autoFocus": true,
+							"backgroundColor": "#ededee",
+							"borderRadius": "50px",
+							"disabled": true,
+							"placeholder": "请输入关建词",
+							"placeholderColor": "#959FA0"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": " ",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"color": "#333333",
+								"colorPressed": "#ffaa00",
+								"float": "right",
+								"fontSize": "20px",
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue695"
+							},
+							{},
+							{
+								"color": "#333333",
+								"colorPressed": "#ffaa00",
+								"float": "right",
+								"fontSize": "20px",
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue61a"
+							}
+						]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/presonalWorks/presonalWorks",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布作品",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"color": "#FB7299",
+								"colorPressed": "#d6bc52",
+								"text": "发布",
+								"float": "right",
+								"fontSize": "16px"
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/personalVideo/personalVideo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的视频",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/user-collection/user-collection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/user-video/user-video",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频列表",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": true
+					}
+				}
+			}
+		}
+        ,{
+            "path" : "pages/user-space/user-space",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						// 背景色设为半透明渐变
+						"type": "transparent",
+						"buttons": [
+							{
+								// 按钮类型菜单
+							  "type": "menu",
+							  "float": "right"
+							}
+						]
+					}
+				}
+            }
+            
+        },
+		{
+			"path": "pages/detail-video/detail-video",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"subNVues": [
+						{
+							"id": "top",
+							"path": "/pages/detail-video/myselfVideo/video",
+							"style": {
+								"position": "dock",
+								"dock": "top",
+								"width": "100%",
+								"height": "225px"
+							}
+						}
+					]
+				}
+			}
+		}
+        ,{
+            "path" : "pages/user-settings/user-settings",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "列表",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/concern/concern",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的关注",
+                "enablePullDownRefresh": true
+            }
+            
+        },
+		{
+		    "path" : "pages/search/search",
+		    "style": {
+		    	"app-plus":{
+		    		"titleNView":{
+		    			"searchInput":{
+		    				"align":"left",
+		    				"backgroundColor":"#F6F7F8",
+		    				"borderRadius":"40px",
+		    				"disabled":false,
+		    				"placeholder":"精彩热搜：意大利面为什么要拌42号混凝土",
+		    				"placeholderColor":"#959FA0"
+		    			},
+		    			"buttons":[{
+		    				"float":"right",
+		    				"text":"搜索",
+		    				"fontSize":"14px",
+		    				"color":"#959FA0",
+		    				"colorPressed":"#333333"
+		    			}]
+		    		}
+		    	}
+		    }
+		}
+        ,{
+            "path" : "pages/user-history/user-history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "历史纪录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+
+	"tabBar": {
+		"color": "#474747",
+		"selectedColor": "#64EDAC",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tarbar/发现 (1).png",
+				"selectedIconPath": "static/tarbar/发现.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/sort/sort",
+				"iconPath": "static/tarbar/分类 (1).png",
+				"selectedIconPath": "static/tarbar/分类.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tarbar/我的 (1).png",
+				"selectedIconPath": "static/tarbar/我的.png",
+				"text": "我的"
+			}
+		],
+		"backgroundColor": "white"
+
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "bibi",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

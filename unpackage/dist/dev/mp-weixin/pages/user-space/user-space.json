@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "style-list3": "/componets/StyleList3/StyleList3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "style-list3": "/componets/StyleList3/StyleList3",
+    "f-popup": "/componets/fPopup/f-popup"
+  }
+}

@@ -1,0 +1,1 @@
+<view><view class="p-3 flex align-center justify-between" hover-class="bg-light" data-event-opts="{{[['tap',[['sendPersonal',['$event']]]]]}}" bindtap="__e"><view><text class="{{['iconfont','','mx-2','text-light-muted',icon]}}"></text><text class="font-md">{{text}}</text></view><text class="font text-muted">{{showText}}</text></view></view>

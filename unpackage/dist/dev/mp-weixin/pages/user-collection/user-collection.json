@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的收藏",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "style-list3": "/componets/StyleList3/StyleList3",
+    "uni-swipe-action-item": "/componets/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-swipe-action": "/componets/uni-swipe-action/uni-swipe-action"
+  }
+}

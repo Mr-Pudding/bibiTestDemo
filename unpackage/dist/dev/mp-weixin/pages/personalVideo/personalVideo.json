@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的视频",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "style-list3": "/componets/StyleList3/StyleList3"
+  }
+}
